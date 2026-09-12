@@ -62,13 +62,8 @@
             font-size: 0.92em;
             white-space: pre-wrap;
             word-break: break-word;
-            max-height: 600px;
-            overflow-y: auto;
             border: 1px solid #e8ecf1;
         }
-        .file-content::-webkit-scrollbar { width: 6px; }
-        .file-content::-webkit-scrollbar-track { background: transparent; }
-        .file-content::-webkit-scrollbar-thumb { background: #c1c7d0; border-radius: 3px; }
         .meta-section {
             background: white;
             border-radius: 10px;
@@ -225,7 +220,8 @@
 - **产出必归档**：每次做完 PPT / 文档 / 图表等交付物，立刻移动到办公工作区的「对应月份文件夹」（`D:\GEO文件夹\GEO文件夹\workbuddy\Workbuddy办公工作区\YYYY-MM\`，即 `2026-08` 这种格式），不要留在会话临时工作区（如 `2026-08-14-16-26-47\`）。⚠️ 命名必须是 `YYYY-MM`，不是 `YYYY年M月`。
 - **散放不分类**：月份文件夹内 PPT、脚本等直接散放，不建 `PPT\` `脚本\` 这类分类子文件夹；只有必须成套才能打开的（如 html 产品页 + 配图）才建文件夹。
 - **脚本同归**：生成交付物的源脚本（.js/.py）如老板未另说，也一并归入对应月份文件夹散放。
-- **归档即打开**：每生成一个交付物（HTML / PPTX / 图片 / 脚本 / JSON / 任何磁盘上的产出），归档到月份文件夹后**立刻调用 `present_files` 把它打开**——single HTML 用内置浏览器预览面板打开，图片/PDF/PPT 等用 artifact cards 展示。**绝不让交付物在硬盘里悄悄躺着**，老板不在 WorkBuddy 里点也得能看到。这条不分大小、不分类型，不开就视同没做完。</div>
+- **归档即打开**：每生成一个交付物（HTML / PPTX / 图片 / 脚本 / JSON / 任何磁盘上的产出），归档到月份文件夹后**立刻调用 `present_files` 把它打开**——single HTML 用内置浏览器预览面板打开，图片/PDF/PPT 等用 artifact cards 展示。**绝不让交付物在硬盘里悄悄躺着**，老板不在 WorkBuddy 里点也得能看到。这条不分大小、不分类型，不开就视同没做完。
+- **交付后核验**：每做完一项交付，必须主动核对是否完全符合老板原始要求；若要求"单页完整显示"，则禁止做成下拉、折叠、滚动截断、分页、交互展开等效果。核对不通过，立刻修正再交付。</div>
     </div>
 
     <div class="file-section">
@@ -265,7 +261,7 @@
 - 学习成果：`...\.workbuddy\learnings\`
 - 本地知识库：`D:\GEO文件夹\GEO文件夹\materials\`
 
-红线：不泄露私人数据 · 破坏操作前确认 · `trash` > `rm` · 不确定先问 · C盘零文件。</div>
+红线：不泄露私人数据 · 破坏操作前确认 · `trash` &gt; `rm` · 不确定先问 · C盘零文件。</div>
     </div>
 
     <div class="file-section">
